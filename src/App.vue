@@ -43,6 +43,9 @@
     <h2 class="card">well, here's some stuff from my github profile:</h2>
     <UserView/>
 
+    <h2 class="card">...some recent activity:</h2>
+    <ActivityView/>
+
     <h2 class="card">..my repos:</h2>
     <RepoView/>
 
@@ -63,13 +66,15 @@
 <script>
 import RepoView from "./components/RepoView.vue"
 import UserView from "./components/UserView.vue"
+import ActivityView from "./components/ActivityView.vue"
 import { mediaLinks } from "./assets/mediaLinks"
 
 export default {
     name: 'App',
     components: {
         RepoView,
-        UserView
+        UserView,
+        ActivityView
     },
     data() {
         return {
@@ -131,6 +136,10 @@ h2.card:nth-of-type(1) {
 }
 
 h2.card:nth-of-type(2) {
+    margin-left: 15%;
+}
+
+h2.card:nth-of-type(3) {
     margin-right: 10%;
 }
 </style>

@@ -22,7 +22,7 @@
             </div>
         </a>
     </div>
-    <div v-else-if="error">
+    <div v-else-if="error" class="card">
         <h1>Error loading repos :/</h1>
         <p>{{error}}</p>
     </div>

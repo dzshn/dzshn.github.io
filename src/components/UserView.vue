@@ -27,7 +27,7 @@
             </a>
         </small>
     </div>
-    <div v-else-if="error">
+    <div v-else-if="error" class="card">
         <h1>Error loading user :/</h1>
         <p>{{error}}</p>
     </div>
