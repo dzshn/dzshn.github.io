@@ -62,9 +62,18 @@ export default {
 }
 
 div.card {
+    transition-duration: 300ms;
     min-width: 30%;
     max-width: 600px;
-    transition-duration: 300ms;
+}
+
+@media screen and (max-width: 600px) {
+    #componentRoot {
+        display: initial;
+    }
+    div.card {
+        width: 90%;
+    }
 }
 
 div.card:hover {

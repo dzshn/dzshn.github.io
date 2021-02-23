@@ -133,6 +133,7 @@ h2.card{
 
 h2.card:nth-of-type(1) {
     margin-left: 10%;
+    margin-right: 5%;
 }
 
 h2.card:nth-of-type(2) {
@@ -140,6 +141,12 @@ h2.card:nth-of-type(2) {
 }
 
 h2.card:nth-of-type(3) {
-    margin-right: 10%;
+    margin-right: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    h2.card:nth-of-type(4) {
+        margin-right: 6%;
+    }
 }
 </style>
