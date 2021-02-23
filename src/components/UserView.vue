@@ -11,7 +11,7 @@
             <i class="bi-box"></i> {{user.public_repos}} repos · {{user.public_gists}} gists <br>
             <i class="bi-building"></i> {{user.company}} ·
             <i class="bi-geo-alt"></i> {{user.location}} ·
-            <i class="bi-envelope"></i> {{user.email}}zshn@pm.me ·
+            <i class="bi-envelope"></i> {{user.email}}zshn@pm.me · <!-- api isn't returning my email yet sorry for that  -->
             <a
                 :href="user.blog"
                 target="_blank" rel="noopener noreferrer"
