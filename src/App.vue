@@ -27,18 +27,7 @@
         </p>
     </div>
 
-    <div class="card">
-        <h2>contact and social media stuff:</h2>
-        <p style="margin: 5px 40px; text-align: center; line-spacing: 10px;">
-            <span v-for="(link, index) in mediaLinks" :key="'l-'+index">
-                {{index % 3? '·' : ''}}
-                <a :href="'https://'+link.url" target="_blank" rel="noopener noreferrer">
-                    <i :class="'bi-'+link.icon" v-if="link.icon"></i>
-                    {{link.user}} <small style="color: #eee;">@{{link.at}}</small>
-                </a> <br v-if="(index + 1) % 3 == 0">
-            </span>
-        </p>
-    </div>
+    <SocialMedia/>
 
     <h2 class="card">well, here's some stuff from my github profile:</h2>
     <UserView/>
@@ -64,22 +53,18 @@
 </template>
 
 <script>
-import RepoView from "./components/RepoView.vue"
-import UserView from "./components/UserView.vue"
-import ActivityView from "./components/ActivityView.vue"
-import { mediaLinks } from "./assets/mediaLinks"
+import RepoView from "./components/RepoView"
+import UserView from "./components/UserView"
+import ActivityView from "./components/ActivityView"
+import SocialMedia from "./components/SocialMedia"
 
 export default {
     name: 'App',
     components: {
         RepoView,
         UserView,
-        ActivityView
-    },
-    data() {
-        return {
-            mediaLinks: mediaLinks
-        }
+        ActivityView,
+        SocialMedia
     }
 }
 </script>

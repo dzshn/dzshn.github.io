@@ -1,6 +1,11 @@
 <template>
     <div class="card" v-if="user.login">
-        <img :src="user.avatar_url" width="128" style="float: right;border-radius: 25%;margin: 20px 10px;">
+        <img
+            :src="user.avatar_url+'&size=128'"
+            style="float: right;border-radius: 25%;margin: 20px 10px;"
+            alt="Github profile picture"
+            width="128" height="128"
+        >
         <h2 style="margin-bottom: 0;">{{user.name}}</h2>
         <a href="https://github.com/dzshn" target="_blank" rel="noopener noreferrer">
             <small>dzshn @ <i class="bi-github"></i></small>

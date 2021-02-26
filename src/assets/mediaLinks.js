@@ -1,6 +1,6 @@
 // the big lazy
 
-export const mediaLinks = [
+export default [
     {
         url: 'dsc.bio/zsh',
         user: 'dzshn#1011',
@@ -40,7 +40,6 @@ export const mediaLinks = [
         url: 'https://patreon.com/dzshn',
         user: 'dzshn',
         at: 'patreon',
-        icon: 'patreon'
     },
     {
         url: 'https://steamcommunity.com/id/dzshn/',

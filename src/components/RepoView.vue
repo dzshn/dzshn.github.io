@@ -5,7 +5,7 @@
                 <h2><small>dzshn/</small> {{repo.name}}</h2>
                 <p>{{repo.description}}</p>
                 <small>
-                    {{repo.language? repo.language : 'No lang'}} /
+                    {{repo.language ?? 'No lang'}} /
                     <a
                         v-if="repo.license"
                         :href="'https://choosealicense.com/licenses/'+repo.license.key+'/'"
