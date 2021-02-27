@@ -5,7 +5,7 @@
                 <span v-if="event.type == 'PushEvent' && event.payload.commits.length == 1">
                     commited
                     <a :href="`https://github.com/${event.repo.name}/commit/${event.payload.commits[0].sha}`" target="_blank" rel="noopener noreferrer">
-                        "{{event.payload.commits[0].message}}"
+                        "{{event.payload.commits[0].message.split('\n')[0]}}"
                     </a>
                     to
                     <a :href="'https://github.com/'+event.repo.name" target="_blank" rel="noopener noreferrer">
