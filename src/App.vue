@@ -12,7 +12,7 @@
     </div>
 
     <div class="card">
-        <h3>little bit about me:</h3>
+        <h2>little bit about me:</h2>
         <p>
             I'm an 1× year old dev, not much experienced, I mostly use vue.js for some webapps, and
             python for automation stuff and bots <br> <br>
@@ -42,12 +42,16 @@
 
     <footer>
         MIT License Copyright © 2021 dzshn ·
-        <a href="https://github.com/dzshn/dzshn.github.io" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/dzshn/webpage" target="_blank" rel="noopener noreferrer">
             view source <i class="bi-code-square"></i>
         </a>
         · made with
         <a href="https://vuejs.org" target="_blank" rel="noreferrer noopener">
             vue.js <i class="bi-link-45deg"></i>
+        </a>
+        · deployed with
+        <a href="https://www.netlify.com/" target="_blank" rel="noreferrer noopener">
+            netlify
         </a>
     </footer>
 </template>
