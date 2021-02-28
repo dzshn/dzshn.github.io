@@ -52,43 +52,32 @@ export default {
 }
 </script>
 
-<style scoped>
-#componentRoot {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    text-align: initial;
-}
+<style scoped lang="stylus">
+#componentRoot
+    @media screen and (min-width 600px)
+        display flex
+        flex-wrap wrap
 
-div.card {
-    transition-duration: 300ms;
-    min-width: 30%;
-    max-width: 600px;
-}
+    justify-content space-around
+    align-items center
+    text-align initial
 
-@media screen and (max-width: 600px) {
-    #componentRoot {
-        display: initial;
-    }
-    div.card {
-        width: 90%;
-    }
-}
+div.card
+    transition-duration 300ms
+    min-width 30%
+    max-width 600px
+    &:hover
+        scale 1.05
+        background linear-gradient(to right, #333, #2a2a2a)
+        h2
+            background linear-gradient(to right, #454545, #555)
 
-div.card:hover {
-    scale: 1.05;
-    background: linear-gradient(to right, #333, #2a2a2a);
-}
+    @media screen and (max-width 600px)
+        width 90%
 
-div.card:hover h2 {
-    background: linear-gradient(to right, #454545, #555);
-}
-
-h2 {
-    background: linear-gradient(to right, #353535, #444);
-    padding: 6px 7px 3px;
-    border-radius: 8px;
-    width: fit-content;
-}
+h2
+    background linear-gradient(to right, #353535, #444)
+    padding 6px 7px 3px
+    border-radius 8px
+    width fit-content
 </style>

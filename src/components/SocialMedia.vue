@@ -23,31 +23,25 @@ export default {
 }
 </script>
 
-<style scoped>
-.card > div {
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
-    margin: 5px 40px;
-    max-width: 580px;
-    justify-content: center;
-}
+<style scoped lang="stylus">
+.card > div
+    display flex
+    flex-wrap wrap
+    justify-content center
+    text-align center
+    margin 5px 40px
+    max-width 580px
+    div
+        background linear-gradient(to right, #353535, #444)
+        border-radius 5px
+        min-width fit-content
+        margin 5px
+        padding 3px 8px 5px
+        transition-duration 140ms
+        transition-timing-function cubic-bezier(0.175, 0.885, 0.32, 1.275)
+        &:hover
+            scale 1.06
 
-.card > div > div {
-    min-width: fit-content;
-    margin: 5px;
-    background: linear-gradient(to right, #353535, #444);
-    padding: 3px 8px 5px;
-    border-radius: 5px;
-    transition-duration: 140ms;
-    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.card > div > div:hover {
-    scale: 1.06;
-}
-
-small {
-    color: #eee;
-}
+small
+    color #eee
 </style>

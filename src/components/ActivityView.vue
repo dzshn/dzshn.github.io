@@ -63,17 +63,11 @@ export default {
 }
 </script>
 
-<style scoped>
-ul {
-    height: 120px;
-    overflow: scroll;
-    overflow-x: hidden;
-    padding: 0 20px 10px;
-    background-color: #fff1;
-    border-radius: 5px;
-}
-
-h3 {
-    padding-left: 20px;
-}
+<style scoped lang="stylus">
+ul
+    background-color #fff1
+    border-radius 5px
+    height 120px
+    overflow hidden scroll
+    padding 0 20px 10px
 </style>

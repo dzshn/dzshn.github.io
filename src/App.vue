@@ -73,69 +73,54 @@ export default {
 }
 </script>
 
-<style>
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+<style lang="stylus">
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
 
-body {
-    background: linear-gradient(to right, #fed3ea, #e0c2e3);
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #eee;
-    margin: 40px 0 0;
-}
+body
+    background linear-gradient(to right, #fed3ea, #e0c2e3)
+    font-family Avenir, Helvetica, Arial, sans-serif
+    -webkit-font-smoothing antialiased
+    -moz-osx-font-smoothing grayscale
+    text-align center
+    color #eee
+    margin 40px 0 0
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
+a
+    text-decoration none
+    color #eee
+    footer &
+    .card &
+        color #fff
+        font-weight 600
 
-footer {
-    color: #eee;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background: linear-gradient(to right, #222, #1a1a1a);
-    padding: 10px 0px;
-    margin-top: 50px;
-}
+footer
+    background linear-gradient(to right, #222, #1a1a1a)
+    margin-top 50px
+    padding 10px 0
+    width 100%
 
-footer a, .card a {
-    font-weight: 600;
-}
+.card
+    font-size large
+    background linear-gradient(to right, #222, #1a1a1a)
+    padding 2px 15px 8px
+    margin 10px auto
+    border-radius 8px
+    width fit-content
+    max-width 90%
+    text-align start
+    h2&
+        padding 8px
+        &:nth-of-type(1)
+            margin-left 10%
+            margin-right 5%
 
-.card {
-    font-size: large;
-    background: linear-gradient(to right, #222, #1a1a1a);
-    padding: 2px 15px 8px;
-    margin: 10px auto;
-    border-radius: 8px;
-    width: fit-content;
-    max-width: 90%;
-    text-align: start;
-}
+        &:nth-of-type(2)
+            margin-left 15%
 
-h2.card{
-    padding: 8px;
-}
+        &:nth-of-type(3)
+            margin-right 15%
 
-h2.card:nth-of-type(1) {
-    margin-left: 10%;
-    margin-right: 5%;
-}
-
-h2.card:nth-of-type(2) {
-    margin-left: 15%;
-}
-
-h2.card:nth-of-type(3) {
-    margin-right: 15%;
-}
-
-@media screen and (max-width: 600px) {
-    h2.card:nth-of-type(4) {
-        margin-right: 6%;
-    }
-}
+        &:nth-of-type(4)
+            @media screen and (max-width 600px)
+                margin-right 6%
 </style>
