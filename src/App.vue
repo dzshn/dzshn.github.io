@@ -7,7 +7,7 @@
 
             there may be some broken layout on your end, but that's just because I'm too lazy for
             testing other browsers, send me a screenshot and I'll try to fix it, erh, if you want to,
-            of course.. <br> <br>
+            of course..
         </p>
     </div>
 
@@ -51,7 +51,7 @@
         </a>
         · deployed with
         <a href="https://www.netlify.com/" target="_blank" rel="noreferrer noopener">
-            netlify
+            netlify <i class="bi-link-45deg"></i>
         </a>
     </footer>
 </template>
