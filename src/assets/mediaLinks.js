@@ -19,30 +19,30 @@ export default [
         at: 'reddit'
     },
     {
-        url: 'https://youtube.com/channel/UCtJffkHLGs1Yx-_NrwA0pbg',
+        url: 'youtube.com/channel/UCtJffkHLGs1Yx-_NrwA0pbg',
         user: 'dzshn',
         at: 'youtube',
         icon: 'youtube'
     },
     {
-        url: 'https://twitter.com/dzshn_',
+        url: 'twitter.com/dzshn_',
         user: 'dzshn_',
         at: 'twitter',
         icon: 'twitter'
     },
     {
-        url: 'https://instagram.com/dzshn_',
+        url: 'instagram.com/dzshn_',
         user: 'dzshn_',
         at: 'instagram',
         icon: 'instagram'
     },
     {
-        url: 'https://patreon.com/dzshn',
+        url: 'patreon.com/dzshn',
         user: 'dzshn',
         at: 'patreon',
     },
     {
-        url: 'https://steamcommunity.com/id/dzshn/',
+        url: 'steamcommunity.com/id/dzshn/',
         user: 'dzshn',
         at: 'steam'
     }
