@@ -22,8 +22,9 @@
             <a href="https://en.wikipedia.org/wiki/Z_shell" target="_blank" rel="noopener noreferrer">that command shell</a>)
             <br> <br>
 
-            I used to do some weird animations in blender, poorly, they're in my youtube which is
-            linked below if you want to check it out
+            I used to do some weird animations in blender, poorly, <del>they're in my youtube which is
+            linked below if you want to check it out</del> well, not anymore since I got my Google
+            account deleted.. I may repost them some day
         </p>
     </div>
 

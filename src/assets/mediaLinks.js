@@ -19,12 +19,6 @@ export default [
         at: 'reddit'
     },
     {
-        url: 'youtube.com/channel/UCtJffkHLGs1Yx-_NrwA0pbg',
-        user: 'dzshn',
-        at: 'youtube',
-        icon: 'youtube'
-    },
-    {
         url: 'twitter.com/dzshn_',
         user: 'dzshn_',
         at: 'twitter',

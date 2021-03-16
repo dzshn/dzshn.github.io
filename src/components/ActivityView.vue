@@ -24,6 +24,12 @@
                         {{event.repo.name}}
                     </a>
                 </span>
+                <span v-else-if="event.type == 'DeleteEvent'">
+                    deleted {{event.payload.ref_type == 'branch'? 'the branch '+event.payload.ref+' on' : ''}}
+                    <a :href="'https://github.com/'+event.repo.name" target="_blank" rel="noopener noreferrer">
+                        {{event.repo.name}}
+                    </a>
+                </span>
                 <span v-else-if="event.type == 'WatchEvent'">
                     starred
                     <a :href="'https://github.com/'+event.repo.name" target="_blank" rel="noopener noreferrer">
