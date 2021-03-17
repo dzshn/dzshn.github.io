@@ -7,7 +7,10 @@
 
             there may be some broken layout on your end, but that's just because I'm too lazy for
             testing other browsers, send me a screenshot and I'll try to fix it, erh, if you want to,
-            of course..
+            of course.. <br> <br>
+
+            also check out the subdomain I put my stuff on right
+            <a href="https://stuff.dzshn.xyz" target="_blank" rel="noopener noreferrer">here</a>
         </p>
     </div>
 
@@ -17,7 +20,7 @@
             I'm an 1× year old dev, not much experienced, I mostly use vue.js for some webapps, and
             python for automation stuff and bots <br> <br>
 
-            I'm MtF trans, I go by she/her and Sofia or Chloe (not entirely sure about names yet),
+            I'm MtF trans, I go by she/her and Sofia (or Chloe, still not entirely sure about names yet),
             but online people call me by z or zsh (yep,
             <a href="https://en.wikipedia.org/wiki/Z_shell" target="_blank" rel="noopener noreferrer">that command shell</a>)
             <br> <br>
