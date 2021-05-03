@@ -19,8 +19,8 @@ export default [
         at: 'reddit'
     },
     {
-        url: 'twitter.com/dzshn_',
-        user: 'dzshn_',
+        url: 'twitter.com/dzshn1',
+        user: 'dzshn1',
         at: 'twitter',
         icon: 'twitter'
     },
