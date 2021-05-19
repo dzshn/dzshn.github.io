@@ -3,7 +3,7 @@
 export default [
     {
         url: 'dsc.bio/zsh',
-        user: 'dzshn#1011',
+        user: 'dzshn#1312',
         at: 'discord',
         icon: 'discord'
     },
@@ -25,8 +25,8 @@ export default [
         icon: 'twitter'
     },
     {
-        url: 'instagram.com/dzshn_',
-        user: 'dzshn_',
+        url: 'instagram.com/dzshn',
+        user: 'dzshn',
         at: 'instagram',
         icon: 'instagram'
     },
